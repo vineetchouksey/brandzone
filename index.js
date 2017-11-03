@@ -18,7 +18,7 @@ let server;
 // } else{
 //   server = app.listen(config.test_port);
 // }
-port = process.env.PORT || 5000;
+port = process.env.PORT || 5001;
 server = app.listen(port);
 //console.log(`Your server is running on port ${config.port}.`);
 
